@@ -135,13 +135,15 @@ public class ConnectionThread extends Thread
             Logger.getLogger(ConnectionThread.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    
+    // adds username to server so it can be displayed in the username box
     private void addUsernameToServer(String username)
     {
         this.name = username;
         server.addUsername(this);
     }
     
-    
+    // writes to the buffer of this specific thread
     public void writeToBuffer(String msg)
     {
         msg = em.encrypt(msg);
@@ -156,7 +158,8 @@ public class ConnectionThread extends Thread
         }
         
     }
-
+    
+    // retrieve the username associated with the thread in order to send it out to all other clients
     public String getUsername()
     {
         return name;
