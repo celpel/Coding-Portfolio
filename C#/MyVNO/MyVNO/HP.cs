@@ -271,30 +271,38 @@ namespace MyVNO
             int reserveHP = hp - remainder; // output 100
             n = (reserveHP / defVal);
 
-            for(int i = 0; i < hpmarkers.Length; i++)
+            try
             {
-                if(hp < hpmarkers[i])
+                for (int i = 0; i < hpmarkers.Length; i++)
                 {
-                    break;
+                    if (hp < hpmarkers[i])
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        subbars.ElementAt(i).Visible = true;
+                    }
                 }
-                else
+
+                if (remainder == 0 && fullhp > 0)
                 {
-                    subbars.ElementAt(i).Visible = true;
-                } 
-            }
+                    remainder = defVal;
+                    subbars.ElementAt(n - 1).Visible = false;
+                }
 
-            if(remainder == 0 && fullhp > 0)
-            {
-                remainder = defVal;
-                subbars.ElementAt(n - 1).Visible = false;
+                if (fullhp <= 0)
+                {
+                    remainder = 0;
+                }
+                progressBar1.Value = remainder;
+                hptext.Text = $"{progressBar1.Value}/{defVal}";
             }
-
-            if(fullhp <= 0)
+            catch (ArgumentOutOfRangeException)
             {
-                remainder = 0;
+                MessageBox.Show("Error: Health value too big.");
+                Reset();
             }
-            progressBar1.Value = remainder;
-            hptext.Text = $"{progressBar1.Value}/{defVal}";
         }
 
         private void ndefault_Click(object sender, EventArgs e)
