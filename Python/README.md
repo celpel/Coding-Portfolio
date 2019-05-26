@@ -1,0 +1,1 @@
+The following project is from a Summer Research program run at California Lutheran University. The program extracts news articles from a set of URLs, extracts keywords from those articles, and compares the articles against each other based on those keywords.
