@@ -206,7 +206,7 @@ namespace MyVNO
 
                     if(fullhp <= 0)
                     {
-                        GenBar(0);
+                        Reset();
                     }
                     else
                     {
@@ -216,7 +216,9 @@ namespace MyVNO
                     hptext.Text = $"{progressBar1.Value}/{defVal}";
                 }
                 catch (FormatException)
-                { }    
+                {
+                    MessageBox.Show("Error: Invalid attack value.");
+                }    
             }
             else
             {
@@ -227,10 +229,17 @@ namespace MyVNO
         private void bosshp_Click(object sender, EventArgs e)
         {
             Reset();
-            int hp = Int32.Parse(bhp.Text);
-            max = fullhp;
-            fullhp = hp;
-            GenBar(hp);
+            try
+            {
+                int hp = Int32.Parse(bhp.Text);
+                max = fullhp;
+                fullhp = hp;
+                GenBar(hp);
+            } catch (FormatException)
+            {
+                MessageBox.Show("Error: Invalid health input.");
+            }
+
         }
 
         private void ReduceBar(int hp)
@@ -350,6 +359,7 @@ namespace MyVNO
 
         private void Reset()
         {
+            progressBar1.Value = 0;
             foreach(ProgressBar p in subbars)
             {
                 p.MarqueeAnimationSpeed = 0;
