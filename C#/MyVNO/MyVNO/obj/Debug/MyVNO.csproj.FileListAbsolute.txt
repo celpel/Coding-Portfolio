@@ -1,0 +1,10 @@
+C:\Users\Cole\source\repos\MyVNO\MyVNO\bin\Debug\MyVNO.exe.config
+C:\Users\Cole\source\repos\MyVNO\MyVNO\bin\Debug\MyVNO.exe
+C:\Users\Cole\source\repos\MyVNO\MyVNO\bin\Debug\MyVNO.pdb
+C:\Users\Cole\source\repos\MyVNO\MyVNO\obj\Debug\MyVNO.csprojResolveAssemblyReference.cache
+C:\Users\Cole\source\repos\MyVNO\MyVNO\obj\Debug\MyVNO.Main.resources
+C:\Users\Cole\source\repos\MyVNO\MyVNO\obj\Debug\MyVNO.Properties.Resources.resources
+C:\Users\Cole\source\repos\MyVNO\MyVNO\obj\Debug\MyVNO.csproj.GenerateResource.cache
+C:\Users\Cole\source\repos\MyVNO\MyVNO\obj\Debug\MyVNO.csproj.CoreCompileInputs.cache
+C:\Users\Cole\source\repos\MyVNO\MyVNO\obj\Debug\MyVNO.exe
+C:\Users\Cole\source\repos\MyVNO\MyVNO\obj\Debug\MyVNO.pdb
