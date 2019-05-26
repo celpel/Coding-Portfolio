@@ -1,0 +1,17 @@
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\obj\Debug\BangQuestManager.Properties.Resources.resources
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\obj\Debug\BangQuestManager.csproj.GenerateResource.cache
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\obj\Debug\BangQuestManager.csproj.CoreCompileInputs.cache
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\bin\Debug\BangQuestManager.exe.config
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\bin\Debug\BangQuestManager.exe
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\bin\Debug\BangQuestManager.pdb
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\bin\Debug\dje\BangQuestManager.resources.dll
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\bin\Debug\Google.Protobuf.dll
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\bin\Debug\MySql.Data.dll
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\bin\Debug\Google.Protobuf.xml
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\bin\Debug\MySql.Data.xml
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\obj\Debug\BangQuestManager.bqm_players.resources
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\obj\Debug\BangQuestManager.bqm_players.dje.resources
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\obj\Debug\dje\BangQuestManager.resources.dll
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\obj\Debug\BangQuestManager.csproj.CopyComplete
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\obj\Debug\BangQuestManager.exe
+C:\Users\Cole\source\repos\BangQuestManager\BangQuestManager\obj\Debug\BangQuestManager.pdb
